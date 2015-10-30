@@ -1,0 +1,20 @@
+<html>
+
+
+  <title>Faculty Search</title>
+
+  <body>
+    <h1>Faculty Search</h1>
+    <form action="{% url 'searchapp:gosearch' %}" method="post">
+      {% csrf_token %}
+      <input id="textquery" name="textquery" type="text" />
+      <input type="submit" value="Search" />
+    </form>
+    <h1>Results</h1>
+    {% for member in resultlist %}
+        <div>
+	  <p>member.text</p>
+	</div>
+    {% endfor %}
+  </body>
+</html>
