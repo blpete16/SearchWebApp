@@ -1,0 +1,12 @@
+from django.shortcuts import render
+
+# Create your views here.
+
+def index(request):
+    context = {}
+    return render(request, 'searchapp/frontpage.html',context)
+
+def gosearch(request):
+    resultlist = []
+    context = {'resultlist':resultlist}
+    return render(request, 'searchapp/results.html', context)

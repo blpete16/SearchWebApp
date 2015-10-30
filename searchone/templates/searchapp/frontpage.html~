@@ -1,0 +1,11 @@
+<html>
+  <title>Faculty Search</title>
+
+  <body>
+    <h1>Faculty Search</h1>
+    <form action="{% url 'seachapp:gosearch' %}" method="post">
+      <input id="textquery" name="textquery" type="text" />
+      <input type="submit" value="Search" />
+    </form>
+  </body>
+</html>
