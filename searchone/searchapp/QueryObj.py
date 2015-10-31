@@ -1,6 +1,34 @@
 from stemming.porter2 import stem
 from ResultObj import ResultObj
+import sqlite3
 
+DATABASEFILE = '/home/brian/Desktop/gradschool/InfoRetrieval/TwistedWebCrawler/index.db'
+
+def buildQueryR(terms):
+    if(len(terms) == 0):
+        return ""
+    elif(len(terms) == 1):
+        return ['SELECT url, author FROM urls WHERE id IN (SELECT url_id FROM term_index WHERE term="'+terms[0]+'"', ')' ]
+    else:
+        vals= [' AND url_id IN (SELECT url_id FROM term_index WHERE term="'+terms[0]+'"', ')']
+        subvals = buildQueryR(terms[1:])
+        tvals = [subvals[0] + vals[0], subvals[1]+vals[1]]
+        return tvals
+
+def buildSQLQuery(terms):
+    vals = buildQueryR(terms)
+    return vals[0] + vals[1]
+
+def execQuery(aSQLQuery):
+    conn = sqlite3.connect(DATABASEFILE)
+    c = conn.cursor()
+    c.execute(aSQLQuery)
+    rows = c.fetchall()
+    results = []
+    for row in rows:
+        results.append(ResultObj(row))
+    conn.close()
+    return results
 
 def sanitize(text):
     ZERO_ASCII = 48
@@ -26,9 +54,8 @@ def sanitize(text):
 
 
 def queryfix(queryterms):
-    output = []
-    for term in queryterms:
-        output.append(stem(term))
+    output = map(stem, queryterms)
+    output = list(set(output))
     return output
 
 class QueryObj():
@@ -40,5 +67,7 @@ class QueryObj():
         self.query = queryfix(sanquery)
         
     def execute(self):
-        results = []
+        sqlq = buildSQLQuery(self.query)
+        
+        results = execQuery(sqlq)
         return results
