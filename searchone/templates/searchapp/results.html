@@ -13,7 +13,10 @@
     <h1>Results</h1>
     {% for member in resultlist %}
         <div>
-	  <p>{{ member.text }}</p>
+	  <p><a href="{{ member.url }}">{{ member.author }}</a>
+	    <br>
+	    {{ member.dbgTFIDF }}
+	  </p>
 	</div>
     {% endfor %}
   </body>
