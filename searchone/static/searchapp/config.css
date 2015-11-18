@@ -1,0 +1,20 @@
+body {
+    background:#f8f7b6;
+}
+#top
+{
+    background:#990099;
+}
+#below
+{
+    background:#f8f7b6;
+    padding-left:50px;
+}
+#textquery
+{
+    width:400px;
+}
+#oneresult
+{
+    background:#ffffff;
+}

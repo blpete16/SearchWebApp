@@ -1,0 +1,1080 @@
+4.67282883446URLID 84BESTTERM ontologin ifFile openFind ind 3684URLID 108BESTTERM ontologin ifFile openFind ind 1796URLID 86BESTTERM ontologin ifFile openFind ind 430URLID 272BESTTERM ontologin ifFile openFind ind 5021URLID 572BESTTERM ontologin ifFile openFind ind 53397URLID 84
+BESTTERM ontolog
+in if
+File open
+Find ind 3684
+
+URLID 108
+BESTTERM ontolog
+in if
+File open
+Find ind 1796
+
+URLID 86
+BESTTERM ontolog
+in if
+File open
+Find ind 430
+
+URLID 272
+BESTTERM ontolog
+in if
+File open
+Find ind 5021
+
+URLID 572
+BESTTERM ontolog
+in if
+File open
+Find ind 53397
+
+URLID 84
+BESTTERM ontolog
+in if
+File open
+Find ind 3684
+
+URLID 108
+BESTTERM ontolog
+in if
+File open
+Find ind 1796
+
+URLID 86
+BESTTERM ontolog
+in if
+File open
+Find ind 430
+
+URLID 272
+BESTTERM ontolog
+in if
+File open
+Find ind 5021
+
+URLID 572
+BESTTERM ontolog
+in if
+File open
+Find ind 53397
+
+URLID 84
+BESTTERM ontolog
+in if
+File open
+Find ind 3684
+START : 3664
+END : 3664
+RNG : 40
+
+URLID 108
+BESTTERM ontolog
+in if
+File open
+Find ind 1796
+START : 1776
+END : 1776
+RNG : 40
+
+URLID 86
+BESTTERM ontolog
+in if
+File open
+Find ind 430
+START : 410
+END : 410
+RNG : 40
+
+URLID 272
+BESTTERM ontolog
+in if
+File open
+Find ind 5021
+START : 5001
+END : 5001
+RNG : 40
+
+URLID 572
+BESTTERM ontolog
+in if
+File open
+Find ind 53397
+START : 53377
+END : 53377
+RNG : 40
+
+URLID 84
+BESTTERM ontolog
+in if
+File open
+Find ind 3684
+START : 3664
+END : 3704
+RNG : 40
+SNIPPET : 
+URLID 108
+BESTTERM ontolog
+in if
+File open
+Find ind 1796
+START : 1776
+END : 1816
+RNG : 40
+SNIPPET : 
+URLID 86
+BESTTERM ontolog
+in if
+File open
+Find ind 430
+START : 410
+END : 450
+RNG : 40
+SNIPPET : 
+URLID 272
+BESTTERM ontolog
+in if
+File open
+Find ind 5021
+START : 5001
+END : 5041
+RNG : 40
+SNIPPET : 
+URLID 572
+BESTTERM ontolog
+in if
+File open
+Find ind 53397
+START : 53377
+END : 53417
+RNG : 40
+SNIPPET : 
+URLID 84
+BESTTERM ontolog
+in if
+File open
+Find ind 3684
+START : 3664
+END : 3704
+RNG : 40
+SNIPPET : hoss, doris carver. ontological identifi
+URLID 108
+BESTTERM ontolog
+in if
+File open
+Find ind 1796
+START : 1776
+END : 1816
+RNG : 40
+SNIPPET : us, topic maps, and ontology), 
+informat
+URLID 86
+BESTTERM ontolog
+in if
+File open
+Find ind 430
+START : 410
+END : 450
+RNG : 40
+SNIPPET : ity
+
+web mining and ontology constructio
+URLID 272
+BESTTERM ontolog
+in if
+File open
+Find ind 5021
+START : 5001
+END : 5041
+RNG : 40
+SNIPPET :  changes impact the ontology of matter a
+URLID 572
+BESTTERM ontolog
+in if
+File open
+Find ind 53397
+START : 53377
+END : 53417
+RNG : 40
+SNIPPET : ut you can take its ontological status t
+URLID 84
+BESTTERM ontolog
+in if
+File open
+Find ind 3684
+START : 3624
+END : 3744
+RNG : 120
+SNIPPET :  of sdps 2010, 2010.
+yixin liu, allyson hoss, doris carver. ontological identification of relationships between anti-pat
+URLID 108
+BESTTERM ontolog
+in if
+File open
+Find ind 1796
+START : 1736
+END : 1856
+RNG : 120
+SNIPPET : ation systems (such as taxonomy, thesaurus, topic maps, and ontology), 
+information retrieval systems (especially cross-
+URLID 86
+BESTTERM ontolog
+in if
+File open
+Find ind 430
+START : 370
+END : 490
+RNG : 120
+SNIPPET : plications of machine learning for security
+
+web mining and ontology construction
+
+fuzzy logic and fuzzy systems
+intelli
+URLID 272
+BESTTERM ontolog
+in if
+File open
+Find ind 5021
+START : 4961
+END : 5081
+RNG : 120
+SNIPPET :  his research explores how technological changes impact the ontology of matter and artisanal epistemology. crow has work
+URLID 572
+BESTTERM ontolog
+in if
+File open
+Find ind 53397
+START : 53337
+END : 53457
+RNG : 120
+URLID 84
+BESTTERM ontolog
+in if
+File open
+Find ind 3684
+START : 3624
+END : 3744
+RNG : 120
+SNIPPET :  of sdps 2010, 2010.
+yixin liu, allyson hoss, doris carver. ontological identification of relationships between anti-pat
+URLID 108
+BESTTERM ontolog
+in if
+File open
+Find ind 1796
+START : 1736
+END : 1856
+RNG : 120
+SNIPPET : ation systems (such as taxonomy, thesaurus, topic maps, and ontology), 
+information retrieval systems (especially cross-
+URLID 86
+BESTTERM ontolog
+in if
+File open
+Find ind 430
+START : 370
+END : 490
+RNG : 120
+SNIPPET : plications of machine learning for security
+
+web mining and ontology construction
+
+fuzzy logic and fuzzy systems
+intelli
+URLID 272
+BESTTERM ontolog
+in if
+File open
+Find ind 5021
+START : 4961
+END : 5081
+RNG : 120
+SNIPPET :  his research explores how technological changes impact the ontology of matter and artisanal epistemology. crow has work
+URLID 572
+BESTTERM ontolog
+in if
+File open
+Find ind 53397
+START : 53337
+END : 53457
+RNG : 120
+URLID 84
+BESTTERM ontolog
+in if
+File open
+Find ind 3684
+START : 3624
+END : 3744
+RNG : 120
+SNIPPET :  of sdps 2010, 2010.
+yixin liu, allyson hoss, doris carver. ontological identification of relationships between anti-pat
+URLID 108
+BESTTERM ontolog
+in if
+File open
+Find ind 1796
+START : 1736
+END : 1856
+RNG : 120
+SNIPPET : ation systems (such as taxonomy, thesaurus, topic maps, and ontology), 
+information retrieval systems (especially cross-
+URLID 86
+BESTTERM ontolog
+in if
+File open
+Find ind 430
+START : 370
+END : 490
+RNG : 120
+SNIPPET : plications of machine learning for security
+
+web mining and ontology construction
+
+fuzzy logic and fuzzy systems
+intelli
+URLID 272
+BESTTERM ontolog
+in if
+File open
+Find ind 5021
+START : 4961
+END : 5081
+RNG : 120
+SNIPPET :  his research explores how technological changes impact the ontology of matter and artisanal epistemology. crow has work
+URLID 572
+BESTTERM ontolog
+in if
+File open
+Find ind 53397
+START : 53337
+END : 53457
+RNG : 120
+SNIPPET :  plato, the soul observes before birthbut you can take its ontological status to be what you prefer) and the numeral 6,
+URLID 108
+BESTTERM ontolog
+URLID 86
+BESTTERM ontolog
+URLID 272
+BESTTERM ontolog
+URLID 108
+BESTTERM confucius
+in if
+File open
+Find ind 1298
+START : 1238
+END : 1358
+RNG : 120
+SNIPPET : easiest; and third by experience, which is the bitterest."- confucius
+
+
+
+
+i am an associate professor in the school of l
+URLID 591
+BESTTERM confucius
+in if
+File open
+Find ind 601
+START : 541
+END : 661
+RNG : 120
+SNIPPET : s not
+          learn 
+          is in great danger."
+
+
+
+
+		confucius (lunyu 2.15)
+
+
+
+
+
+
+
+current resources
+
+
+
+
+
+fall 20
+URLID 370
+BESTTERM professor
+in if
+File open
+Find ind 2198
+START : 2138
+END : 2258
+RNG : 120
+SNIPPET :  z. voyiadjis, ph.d. 
+
+
+
+
+
+
+george z. voyiadjis, ph.d.
+boyd professor
+
+
+
+bingham c. stewart distinguished professor
+chai
+URLID 62
+BESTTERM professor
+in if
+File open
+Find ind 155
+START : 95
+END : 215
+RNG : 120
+SNIPPET : ng
+service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xin (shane) li  
+
+ associate professor 
+ oskar r. menton professor of electrical engineer
+URLID 377
+BESTTERM professor
+in if
+File open
+Find ind 2183
+START : 2123
+END : 2243
+RNG : 120
+SNIPPET : /zhi-qiang deng, ph.d. 
+
+
+
+
+
+
+zhi-qiang deng, ph.d.
+professor
+
+
+
+
+
+
+
+3418d patrick f. taylor hall
+louisiana stat
+URLID 408
+BESTTERM professor
+in if
+File open
+Find ind 2160
+START : 2100
+END : 2220
+RNG : 120
+SNIPPET : i, ph.d., p.e. 
+
+
+
+
+
+
+jonathan  jingsheng  shi, ph.d., p.e.
+professor
+
+
+
+holder of the art e. favre endowed chair in ind
+URLID 510
+BESTTERM professor
+in if
+File open
+Find ind 2835
+START : 2775
+END : 2895
+RNG : 120
+SNIPPET : h staffcontact us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+william j. platt iii
+professor see division
+                                 
+phd
+URLID 522
+BESTTERM professor
+in if
+File open
+Find ind 1831
+START : 1771
+END : 1891
+RNG : 120
+SNIPPET : ; } 
+
+
+
+
+
+
+lsu-faculty-network-header
+
+
+ 
+home
+
+les butler
+professor inorganic and materials science
+bachelors degr
+URLID 539
+BESTTERM professor
+in if
+File open
+Find ind 1836
+START : 1776
+END : 1896
+RNG : 120
+SNIPPET : mistry
+                          barbara womack lsu alumni professor (b. 1964)
+lsu faculty fellow
+                    
+URLID 572
+BESTTERM professor
+in if
+File open
+Find ind 9773
+START : 9713
+END : 9833
+RNG : 120
+SNIPPET : tt baldridge  
+
+intended audience:research mathematicians, professors of mathematics, graduate students in mathematics,
+URLID 27
+BESTTERM professor
+in if
+File open
+Find ind 4661
+START : 4601
+END : 4721
+RNG : 120
+SNIPPET :  + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+name: maud walshtitle: professor; undergraduate and graduate advisorspecialization:
+URLID 30
+BESTTERM professor
+in if
+File open
+Find ind 4701
+START : 4641
+END : 4761
+RNG : 120
+SNIPPET : c + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+name: kayanush aryanatitle: professorspecialization: functional dairy foodse-mail: depar
+URLID 246
+BESTTERM professor
+in if
+File open
+Find ind 185
+START : 125
+END : 245
+RNG : 120
+SNIPPET : d., cfa
+
+
+james c. flores endowed chair of mba studies
+		& professor of finance
+		louisiana state university
+
+
+(for
+URLID 374
+BESTTERM professor
+in if
+File open
+Find ind 2218
+START : 2158
+END : 2278
+RNG : 120
+SNIPPET : 
+
+
+
+
+
+
+steve c.s. cai, ph.d., pe
+edwin b and norma s mcneil professor
+
+
+
+
+
+
+
+room 3505b patrick f. taylor hall
+louisiana
+URLID 538
+BESTTERM professor
+in if
+File open
+Find ind 1850
+START : 1790
+END : 1910
+RNG : 120
+SNIPPET : u-faculty-network-header
+
+
+ 
+home
+
+
+
+
+andrew w. maverick
+professor  inorganic, supramolecular, and materials
+philip 
+URLID 547
+BESTTERM professor
+in if
+File open
+Find ind 1210
+START : 1150
+END : 1270
+RNG : 120
+SNIPPET : 'path'] = "/science/chemistry/people/academic_contact_pages/professors/stanley.php";
+                ouc.globalprops['do
+URLID 548
+BESTTERM professor
+in if
+File open
+Find ind 1835
+START : 1775
+END : 1895
+RNG : 120
+SNIPPET : culty-network-header
+
+
+ 
+home
+
+
+
+
+
+
+
+carol m. taylor
+
+ professor organic synthesis, bioorganic chemistry, peptid
+URLID 553
+BESTTERM professor
+in if
+File open
+Find ind 3194
+START : 3134
+END : 3254
+RNG : 120
+SNIPPET :  of events
+
+
+give
+
+ 
+
+
+
+
+
+samuel bentley
+               
+professor
+billy & ann harrison chair of sedimentology
+bachel
+URLID 602
+BESTTERM professor
+in if
+File open
+Find ind 64
+START : 4
+END : 124
+RNG : 120
+SNIPPET : tephen p. shipman : home
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+stephen p. shipman
+
+professor
+	department of mathematics
+	louisiana state univer
+URLID 40
+BESTTERM professor
+in if
+File open
+Find ind 4616
+START : 4556
+END : 4676
+RNG : 120
+SNIPPET : + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+name: bruce jennytitle: professorspecialization: dairy sciencee-mail: department: sc
+URLID 371
+BESTTERM professor
+in if
+File open
+Find ind 2207
+START : 2147
+END : 2267
+RNG : 120
+SNIPPET : akh, ph.d., pe 
+
+
+
+
+
+
+murad  abu-farsakh, ph.d., pe
+adjunct professor - research
+
+
+
+
+
+
+
+ltrc
+louisiana state university
+
+URLID 379
+BESTTERM professor
+in if
+File open
+Find ind 2213
+START : 2153
+END : 2273
+RNG : 120
+SNIPPET : ., pe (va) 
+
+
+
+
+
+
+mostafa elseifi, ph.d., pe (va)
+associate professor
+
+
+
+
+
+
+
+3526c patrick f. taylor hall
+louisiana stat
+URLID 510
+BESTTERM louisiana
+URLID 572
+BESTTERM state
+URLID 43
+BESTTERM louisiana
+URLID 242
+BESTTERM louisiana
+URLID 386
+BESTTERM louisiana
+URLID 371
+BESTTERM louisiana
+URLID 5
+BESTTERM louisiana
+URLID 30
+BESTTERM louisiana
+URLID 27
+BESTTERM louisiana
+URLID 24
+BESTTERM louisiana
+URLID 377
+BESTTERM univers
+URLID 391
+BESTTERM state
+URLID 397
+BESTTERM louisiana
+URLID 395
+BESTTERM louisiana
+URLID 400
+BESTTERM state
+URLID 62
+BESTTERM univers
+URLID 282
+BESTTERM univers
+URLID 324
+BESTTERM univers
+URLID 7
+BESTTERM louisiana
+URLID 309
+BESTTERM univers
+URLID 510
+BESTTERM louisiana
+URLID 572
+BESTTERM state
+URLID 43
+BESTTERM louisiana
+URLID 242
+BESTTERM louisiana
+URLID 386
+BESTTERM louisiana
+URLID 371
+BESTTERM louisiana
+URLID 5
+BESTTERM louisiana
+URLID 30
+BESTTERM louisiana
+URLID 27
+BESTTERM louisiana
+URLID 24
+BESTTERM louisiana
+URLID 377
+BESTTERM univers
+URLID 391
+BESTTERM state
+URLID 397
+BESTTERM louisiana
+URLID 395
+BESTTERM louisiana
+URLID 400
+BESTTERM state
+URLID 62
+BESTTERM univers
+URLID 282
+BESTTERM univers
+URLID 324
+BESTTERM univers
+URLID 7
+BESTTERM louisiana
+URLID 309
+BESTTERM univers
+URLID 84
+BESTTERM ontolog
+in if
+File open
+Find ind 3684
+START : 3624
+END : 3744
+RNG : 120
+SNIPPET :  of sdps 2010, 2010.
+yixin liu, allyson hoss, doris carver. ontological identification of relationships between anti-pat
+URLID 108
+BESTTERM ontolog
+in if
+File open
+Find ind 1796
+START : 1736
+END : 1856
+RNG : 120
+SNIPPET : ation systems (such as taxonomy, thesaurus, topic maps, and ontology), 
+information retrieval systems (especially cross-
+URLID 86
+BESTTERM ontolog
+in if
+File open
+Find ind 430
+START : 370
+END : 490
+RNG : 120
+SNIPPET : plications of machine learning for security
+
+web mining and ontology construction
+
+fuzzy logic and fuzzy systems
+intelli
+URLID 272
+BESTTERM ontolog
+in if
+File open
+Find ind 5021
+START : 4961
+END : 5081
+RNG : 120
+SNIPPET :  his research explores how technological changes impact the ontology of matter and artisanal epistemology. crow has work
+URLID 572
+BESTTERM ontolog
+in if
+File open
+Find ind 53397
+START : 53337
+END : 53457
+RNG : 120
+SNIPPET :  plato, the soul observes before birthbut you can take its ontological status to be what you prefer) and the numeral 6,
+URLID 108
+BESTTERM retriev
+in if
+File open
+Find ind 1820
+START : 1760
+END : 1880
+RNG : 120
+SNIPPET : axonomy, thesaurus, topic maps, and ontology), 
+information retrieval systems (especially cross-language information ret
+URLID 103
+BESTTERM inform
+in if
+File open
+Find ind 2761
+START : 2701
+END : 2821
+RNG : 120
+SNIPPET : n emeritus
+louisiana state university
+school of library and information science
+lsboyc@lsu.edu
+
+
+
+
+ph.d, library and inf
+URLID 101
+BESTTERM inform
+in if
+File open
+Find ind 2778
+START : 2718
+END : 2838
+RNG : 120
+SNIPPET : oyce professorship
+      in the school of library and information science    
+associate professor 
+ louisiana
+URLID 109
+BESTTERM inform
+in if
+File open
+Find ind 2776
+START : 2716
+END : 2836
+RNG : 120
+SNIPPET :  louisiana state university
+    school of library and information science
+ 272 coates hall
+  baton rouge, la 70
+URLID 86
+BESTTERM retriev
+in if
+File open
+Find ind 507
+START : 447
+END : 567
+RNG : 120
+SNIPPET : tion
+
+fuzzy logic and fuzzy systems
+intelligent information retrieval and interactive systems
+knowledge representation, 
+URLID 572
+BESTTERM retriev
+in if
+File open
+Find ind 93288
+START : 93228
+END : 93348
+RNG : 120
+SNIPPET :  that:
+though there is no doubt that skilled and automatic retrieval of arithmetic facts is advantageous in calculation
+URLID 102
+BESTTERM inform
+in if
+File open
+Find ind 2758
+START : 2698
+END : 2818
+RNG : 120
+SNIPPET :  professor
+louisiana state university
+school of library and information science
+276 coates hall
+baton rouge, la 70803
+ph
+URLID 95
+BESTTERM retriev
+in if
+File open
+Find ind 992
+START : 932
+END : 1052
+RNG : 120
+SNIPPET :  research area is statistical machine learning, information retrieval and visualization. i am particularly interested in
+URLID 108
+BESTTERM retriev
+URLID 103
+BESTTERM inform
+URLID 101
+BESTTERM inform
+URLID 109
+BESTTERM inform
+URLID 86
+BESTTERM retriev
+URLID 95
+BESTTERM retriev

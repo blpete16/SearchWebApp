@@ -1,23 +1,30 @@
+{% load staticfiles %}
 <html>
-
-
-  <title>Faculty Search</title>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{% static "searchapp/config.css" %}">
+  </head>
+  <title>LSU Expertise</title>
 
   <body>
-    <h1>Faculty Search</h1>
-    <form action="{% url 'searchapp:gosearch' %}" method="post">
+    <div id="top">
+      <img src="{% static "searchapp/header.png" %}">
+    </div>
+    <br>
+    <div id="below">
+    <form id="mainsearch" action="{% url 'searchapp:gosearch' %}" method="post">
       {% csrf_token %}
       <input id="textquery" name="textquery" type="text" />
       <input type="submit" value="Search" />
     </form>
     <h1>Results</h1>
     {% for member in resultlist %}
-        <div>
-	  <p><a href="{{ member.url }}">{{ member.author }}</a>
+        <div id="oneresult">
+	  <p><a href="{{ member.url }}">{{ member.author }}</a> Email: {{ member.email }}
 	    <br>
-	    {{ member.dbgTFIDF }}
+	    {{ member.snippet }}
 	  </p>
 	</div>
     {% endfor %}
+    </div>
   </body>
 </html>

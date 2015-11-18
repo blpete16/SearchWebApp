@@ -4,13 +4,14 @@ import sqlite3
 import Const
 
 
+
 def buildQueryR(terms):
     if(len(terms) == 0):
-        return ""
+        return ["",""]
     elif(len(terms) == 1):
-        return ['SELECT id, url, author FROM urls WHERE id IN (SELECT url_id FROM term_index WHERE _term="'+terms[0]+'"', ')' ]
+        return ['SELECT id, url, author, email FROM urls WHERE id IN (SELECT url_id FROM term_index WHERE _term_id='+str(terms[0]), ')' ]
     else:
-        vals= [' AND url_id IN (SELECT url_id FROM term_index WHERE _term="'+terms[0]+'"', ')']
+        vals= [' AND url_id IN (SELECT url_id FROM term_index WHERE _term_id='+str(terms[0]), ')']
         subvals = buildQueryR(terms[1:])
         tvals = [subvals[0] + vals[0], subvals[1]+vals[1]]
         return tvals
@@ -19,56 +20,19 @@ def buildSQLQuery(terms):
     vals = buildQueryR(terms)
     return vals[0] + vals[1]
 
-def execQuery(aSQLQuery):
-    conn = sqlite3.connect(Const.DATABASEFILE)
-    c = conn.cursor()
+def execQuery(aSQLQuery, c):
     c.execute(aSQLQuery)
     rows = c.fetchall()
     results = []
     for row in rows:
         results.append(ResultObj(row))
-    conn.close()
     return results
-
-def sanitize(text):
-    ZERO_ASCII = 48
-    NINE_ASCII = 57
-    CAPA_ASCII = 65
-    CAPZ_ASCII = 90
-    SPACE_ASCII = 32
-    LOWA_ASCII = 97
-    LOWZ_ASCII = 122
-
-    output = ""
-    for letter in text:
-        asciival = ord(letter)
-        if(asciival == SPACE_ASCII):
-            output = output + letter
-        if(asciival >= ZERO_ASCII and asciival <= NINE_ASCII):
-            output = output + letter
-        if(asciival >= CAPA_ASCII and asciival <= CAPZ_ASCII):
-            output = output + str(unichr(32+asciival))
-        if(asciival >= LOWA_ASCII and asciival <= LOWZ_ASCII):
-            output = output + letter
-    return output
 
 
 def queryfix(queryterms):
     output = map(stem, queryterms)
     output = list(set(output))
     return output
-
-def queryidfs(aquery):
-    conn = sqlite3.connect(Const.DATABASEFILE)
-    print "Connecting to: " + Const.DATABASEFILE
-    c = conn.cursor()
-    results = []
-    for term in aquery:
-        c.execute('SELECT idf FROM terms WHERE _term="' + term + '"')
-        idf = float(c.fetchone()[0])
-        results.append(idf)
-    conn.close()
-    return results
 
 def getPhrases(rawquery):
     phrases = []
@@ -90,24 +54,66 @@ class QueryObj():
 
     def __init__(self, rawquery):
         self.rawquery = rawquery
-        sanquery = sanitize(rawquery).split()
+        sanquery = Const.sanitize(rawquery).split()
         self.query = queryfix(sanquery)
-        self.idfs = queryidfs(self.query)
+        self.reorderedterms = []
+
+    def getQIDs(self, listterms, c):
+        qur = 'SELECT id, idf, _term FROM terms WHERE _term IN("'
+        for term in listterms:
+            qur = qur + term + '","'
+        qur = qur[:-2]
+        qur = qur + ") ORDER BY idf ASC"
+        c.execute(qur)
+        ret = []
+        self.idfs = []
+        self.reorderedterms = []
+
+        rows = c.fetchall()
+        for row in rows:
+            ret.append(row[0])
+            self.idfs.append(row[1])
+            self.reorderedterms.append(row[2])
+        return ret
+
         
     def execute(self):
-        sqlq = buildSQLQuery(self.query)
-        
-        results = execQuery(sqlq)
+        conn = sqlite3.connect(Const.DATABASEFILE)
+        c = conn.cursor()
 
+        qids = self.getQIDs(self.query, c)
+        sqlq = buildSQLQuery(qids)
+        
+        results = execQuery(sqlq, c)
+        
+        conn.close()
+ 
         phrases = getPhrases(self.rawquery)
 
-        #starthere.
-        results = filter(lambda r : r.containsPhrases(phrases), results)
+        if(len(phrases) > 0):
+            for result in results:
+                result.calcTFIDF(self.reorderedterms, qids, self.idfs)
+
+            results = sorted(results, key=lambda result: result.rank, reverse=True)
+            newresults = []
+            ind = 0
+            while(len(newresults) < 20 and ind < len(results)):
+                if(results[ind].containsPhrases(phrases)):
+                    newresults.append(results[ind])
+                ind = ind + 1
+            results = newresults
+
+        else:
+            for result in results:
+                result.calcTFIDF(self.reorderedterms, qids, self.idfs)
+
+
+            results = sorted(results, key=lambda result: result.rank, reverse=True)
+        
+            if(len(results) > 20):
+                results = results[:20]
 
         for result in results:
-            result.calcTFIDF(self.query, self.idfs)
-
-
-        results = sorted(results, key=lambda result: result.rank, reverse=True)
+            result.prepare()
 
         return results
