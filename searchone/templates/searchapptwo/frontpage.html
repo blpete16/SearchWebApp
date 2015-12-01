@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{% static "searchapp/config.css" %}">
+  </head>
+  <title>LSU Expertise</title>
+  <body>
+    <div id="top">
+      <img src="{% static "searchapp/header.png" %}">
+    </div>
+    <div id="below">
+    <br>
+    <form id="mainsearch" action="{% url 'searchapptwo:gosearch' %}" method="post">
+      {% csrf_token %}
+      <input id="textquery" name="textquery" type="text" />
+      <input type="submit" value="Search" />
+    </form>
+    </div>
+  </body>
+</html>

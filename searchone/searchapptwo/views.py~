@@ -1,0 +1,16 @@
+from django.shortcuts import render
+from QueryObj import QueryObj
+
+# Create your views here.
+
+def index(request):
+    context = {}
+    return render(request, 'searchapptwo/frontpage.html',context)
+
+def gosearch(request):
+    rawquery = request.POST['textquery']
+    qo = QueryObj(rawquery)
+    resultlist = qo.execute()
+    RC=len(resultlist)
+    context = {'resultlist':resultlist,'resultcount':RC}
+    return render(request, 'searchapptwo/results.html', context)

@@ -20,4 +20,5 @@ from django.contrib.auth import views as auth_views
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^search/', include('searchapp.urls', namespace='searchapp')),
+    url(r'^searchtwo/', include('searchapptwo.urls', namespace='searchapptwo')),
 ]
